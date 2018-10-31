@@ -990,9 +990,8 @@ table {
   line-height: 1.5rem;
   margin-top: 0.5rem;
 }
-.direction-map-container, #map {
-  height: 250px;
-  width: 100%;
+.direction-map-container{
+
   background-color: #eee;
   display: -ms-flexbox;
   display: flex;
@@ -2145,7 +2144,7 @@ table {
   line-height: 1.5rem;
   margin-top: 0.5rem;
 }
-.direction-map-container, #map {
+.direction-map-container{
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -2316,15 +2315,18 @@ body {
   -ms-flex-pack: center;
       justify-content: center;
 }
-  
-
+#map {
+  height: 250px;
+  width: 100%;
+  background-image: url("https://cdn.glitch.com/e95604fa-b79c-4f4a-a516-4762de15da9a%2FScreen%20Shot%202018-10-31%20at%205.18.23%20AM.png?1540977544276");
+  }
   
   body { margin:0; padding:0; }
 </style>
   
   <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js"></script>
 <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css" rel="stylesheet" />
-  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
   </head>
   <body cz-shortcut-listen="true">
     <noscript>
@@ -2455,6 +2457,7 @@ body {
                           },
                           "properties": {
                               "title": "Cullen Murphy & Co",
+                              "subtitle":"",
                               "icon": "castle"
                           }
                       }]
