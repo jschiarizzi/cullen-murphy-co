@@ -2316,11 +2316,15 @@ body {
   -ms-flex-pack: center;
       justify-content: center;
 }
+  
+
+  
+  body { margin:0; padding:0; }
 </style>
   
   <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js"></script>
 <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css" rel="stylesheet" />
-  
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
   </head>
   <body cz-shortcut-listen="true">
     <noscript>
@@ -2429,8 +2433,48 @@ body {
     const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/schiarizzi/cjnwwokhi0job2sofm8n8bhwn',
-    center: [2.317600, 48.866500],
-    zoom: 12.0
+    center: [-71.198680, 42.161251],
+    zoom: 13.0
     });
+      
+      map.scrollZoom.disable();
+
+map.on('load', function () {
+  map.addLayer({
+        "id": "points",
+        "type": "symbol",
+        "source": {
+            "type": "geojson",
+            "data": {
+                "type": "FeatureCollection",
+                "features": [{
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [ -71.198680, 42.161250]
+                    },
+                    "properties": {
+                        "title": "Cullen Murphy & Co",
+                        "icon": "castle"
+                    }
+                }]
+            }
+        },
+        "layout": {
+            "icon-image": "{icon}-15",
+            "text-field": "{title}",
+            "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+            "text-offset": [0, 0.6],
+            "text-anchor": "top"
+        },
+        "paint":{
+          "text-color":"rgba(0, 0, 0, 255)"
+        }
+    }
+
+  
+  );
+  
+});
     </script>
 </body></html>
