@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!-- saved from url=(0034)http://near-make.glitch.me/contact -->
-<html lang="en">  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALMnBeyuKD3WPOW8BJny4jNt092Mle20Q&callback=initMap"
-  type="text/javascript"></script>
+<html lang="en">  <head>
+ 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
     <link rel="manifest" href="http://localhost:3000/manifest.json">
@@ -990,7 +990,10 @@ table {
   line-height: 1.5rem;
   margin-top: 0.5rem;
 }
-.direction-map-container {
+.direction-map-container, #map {
+  height: 250px;
+  width: 100%;
+  background-color: #eee;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -2142,7 +2145,7 @@ table {
   line-height: 1.5rem;
   margin-top: 0.5rem;
 }
-.direction-map-container {
+.direction-map-container, #map {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -2315,8 +2318,8 @@ body {
 }
 </style>
   
-  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'></script>
-<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css' rel='stylesheet' />
+  <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js"></script>
+<link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css" rel="stylesheet" />
   
   </head>
   <body cz-shortcut-listen="true">
@@ -2410,9 +2413,9 @@ body {
                                 <br><a href="mailto:SMarino@CullenMurphyandco.com?">SMarino@CullenMurphyandco.com</a></div>
                         </div>
                     </div>
-                    <div class="direction-map-container">
-                        <iframe src="./contact_files/embed.html" class="directions-map" frameborder="0" style="border:0; text-align: center;" allowfullscreen=""></iframe>
-                    </div>
+                    
+                  <div id="map"></div>
+                  
                 </div>
             </div>
         </div>
@@ -2421,5 +2424,13 @@ body {
         <div class="app-footer"><div class="footer-info">Cullen, Murphy &amp; Co., PC</div><div class="footer-info">1506 Providence Highway, Suite 31 - Norwood. MA 02062</div><div class="footer-info">(781) 769-6262</div><a class="footer-info footer-link" href="./contact.html">Contact Us</a></div></div></div></div>
 
     
-
+    <script>
+    mapboxgl.accessToken = 'pk.eyJ1Ijoic2NoaWFyaXp6aSIsImEiOiJjajE4a3NuZWowNzQ5MzNvN2xkdGh2YnVwIn0.dOZQgGCs8Fwxpy7bmRvvTg';
+    const map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/schiarizzi/cjnwwokhi0job2sofm8n8bhwn',
+    center: [2.317600, 48.866500],
+    zoom: 12.0
+    });
+    </script>
 </body></html>
