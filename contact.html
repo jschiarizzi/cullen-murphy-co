@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
     <link rel="manifest" href="http://localhost:3000/manifest.json">
-    <link rel="shortcut icon" href="http://localhost:3000/favicon.png">
+    <link rel="shortcut icon" href="https://cdn.glitch.com/e95604fa-b79c-4f4a-a516-4762de15da9a%2Ffavicon.png?1540976482735">
     <title>Contact | Cullen, Murphy &amp; Co., PC.</title>
     <meta name="description" content="Certified Public Accountants &amp; Business Consultants">
     <link href="./contact_files/css" rel="stylesheet">
@@ -2439,42 +2439,44 @@ body {
       
       map.scrollZoom.disable();
 
-map.on('load', function () {
-  map.addLayer({
-        "id": "points",
-        "type": "symbol",
-        "source": {
-            "type": "geojson",
-            "data": {
-                "type": "FeatureCollection",
-                "features": [{
-                    "type": "Feature",
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [ -71.198680, 42.161250]
-                    },
-                    "properties": {
-                        "title": "Cullen Murphy & Co",
-                        "icon": "castle"
-                    }
-                }]
-            }
-        },
-        "layout": {
-            "icon-image": "{icon}-15",
-            "text-field": "{title}",
-            "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
-            "text-offset": [0, 0.6],
-            "text-anchor": "top"
-        },
-        "paint":{
-          "text-color":"rgba(0, 0, 0, 255)"
-        }
-    }
+      map.on('load', function () {
+        map.addLayer({
+              "id": "points",
+              "type": "symbol",
+              "source": {
+                  "type": "geojson",
+                  "data": {
+                      "type": "FeatureCollection",
+                      "features": [{
+                          "type": "Feature",
+                          "geometry": {
+                              "type": "Point",
+                              "coordinates": [ -71.198680, 42.161250]
+                          },
+                          "properties": {
+                              "title": "Cullen Murphy & Co",
+                              "icon": "castle"
+                          }
+                      }]
+                  }
+              },
+              "layout": {
+                  "icon-image": "{icon}-15",
+                  "text-field": "{title}",
+                  "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+                  "text-offset": [0, 0.6],
+                  "text-anchor": "top"
+              },
+              "paint":{
+                "text-color":"rgba(0, 0, 0, 255)"
+              }
+          }
 
-  
-  );
-  
-});
+
+        );
+
+      });
+
+      map.resize();
     </script>
 </body></html>
