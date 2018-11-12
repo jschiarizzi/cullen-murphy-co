@@ -22,7 +22,7 @@ export default class Home extends Component {
                   <img src={constImg} alt=""/>
               </div>
               <div className= "home-description-text home-section-double">
-                  Cullen Murphy & Co., P.C., heritage of stability, focus and depth stems from the firm’s historically distinctive construction practice.  Advising companies with construction divisions, general contractors, subcontractors and related industries over the past four decades.
+                <strong>Cullen Murphy & Co., P.C.</strong>  provides diversified tax and accounting services to our clients located in Greater Boston, and throughout New England.  The firm’s history of stability, focus and depth stems from the firm’s distinctive professional expertise assisting closely-held companies with their tax and financial requirements.
               </div>
             </div>
             <div className="home-description">
