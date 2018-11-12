@@ -12,8 +12,8 @@ export default class Home extends Component {
           </Helmet>
           <div className="home-section home-hero">
             <div className="home-hero-text">
-              When it comes to your finances,
-              <br/>we are in your dugout.
+              We understand your small business,
+              <br/>because we are one too.
             </div>
           </div>
           <div className="home-section">
