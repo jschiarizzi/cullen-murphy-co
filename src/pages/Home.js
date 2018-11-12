@@ -13,7 +13,7 @@ export default class Home extends Component {
           <div className="home-section home-hero">
             <div className="home-hero-text">
               Small firm attention,
-              <br/>because we are one too.
+              <br/>big firm results.
             </div>
           </div>
           <div className="home-section">
