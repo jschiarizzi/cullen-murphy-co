@@ -12,7 +12,7 @@ export default class Home extends Component {
           </Helmet>
           <div className="home-section home-hero">
             <div className="home-hero-text">
-              We understand your small business,
+              Small firm attention,
               <br/>because we are one too.
             </div>
           </div>
@@ -28,7 +28,7 @@ export default class Home extends Component {
             <br/><br/>
             <div className="home-description">
               <div className= "home-description-text home-section-double">
-                  We provide a unique combination of institutional knowledge and real-world skills in assisting companies and individuals. Within this practice, we advise on corporate and transactional issues, succession planning, acquisitions, divestitures assurance and tax compliance.
+                  Throughout this website you will find information about the firm, introduce you to our team of professionals and the services we provide. We encourage you to contact us with any questions you may have about our firm.
               </div>
               <div className="home-description-img home-section-double">
                   <img src={accountImg} alt=""/>
