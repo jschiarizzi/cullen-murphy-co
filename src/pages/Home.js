@@ -25,6 +25,7 @@ export default class Home extends Component {
                 <strong>Cullen Murphy & Co., P.C.</strong>  provides diversified tax and accounting services to our clients located in Greater Boston, and throughout New England.  The firm’s history of stability, focus and depth stems from the firm’s distinctive professional expertise assisting closely-held companies with their tax and financial requirements.
               </div>
             </div>
+            <br/><br/>
             <div className="home-description">
               <div className= "home-description-text home-section-double">
                   We provide a unique combination of institutional knowledge and real-world skills in assisting companies and individuals. Within this practice, we advise on corporate and transactional issues, succession planning, acquisitions, divestitures assurance and tax compliance.
