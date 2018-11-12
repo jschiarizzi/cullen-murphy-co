@@ -1008,7 +1008,7 @@ table {
   line-height: 1.25rem;
 }
 .home-section {
-  min-height: 40vh;
+  min-height: 100%;
 }
 .home-description-alt {
   background-color: #fcfcfc;
@@ -1028,9 +1028,12 @@ table {
     padding-top: 3em;
   }
 }
+.home{
+  width: 100%;
+}
 .home-hero {
   height: 80vh;
-  width: 100vw;
+  width: 100%;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
