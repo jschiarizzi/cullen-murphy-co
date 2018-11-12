@@ -27,7 +27,7 @@ export default class Home extends Component {
             </div>
             <div className="home-description">
               <div className= "home-description-text home-section-double">
-                  We provide a unique combination of institutional knowledge and real-world skills in assisting companies in the construction market space.  Within this practice, we advise on corporate and transactional issues, succession planning, acquisitions, divestitures assurance and tax compliance.
+                  We provide a unique combination of institutional knowledge and real-world skills in assisting companies and individuals. Within this practice, we advise on corporate and transactional issues, succession planning, acquisitions, divestitures assurance and tax compliance.
               </div>
               <div className="home-description-img home-section-double">
                   <img src={accountImg} alt=""/>
