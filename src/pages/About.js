@@ -38,8 +38,7 @@ export default class NotFound extends Component {
                 Robert Eardley, CPA, MST – Manager
               </div>
               <div className="about-bios-desc">
-                Rob has been with Cullen Murphy & Co., P.C., since 2001.  He began as a part-time high school employee assisting with firm administration, then becoming an accounting intern and then a full-time member of the staff after graduation from Merrimack College in 2007 with a Bachelor of Science in Business Administration with a concentration in Accountancy.  Rob attained a Master of Science in Taxation from Bentley College in 2011 and was promoted to manager in 2012.  Rob serves his clients in the area of audit and tax.
-              </div>
+                Rob has been with Cullen Murphy & Co., P.C., since 2001. His extensive experience in public accounting includes specializing in accounting, auditing, tax, and advisor for closely held corporations, partnerships, trusts and individuals as they apply to construction, real estate, wholesale/retail, and various industries. Rob’s areas of expertise include financial reporting plus tax planning and preparation. He is well versed in auditing, accounting, and tax regulations. Rob is active in several professional and industry associations. He holds a B.S. in Business Administration with a concentration in Accountancy from Merrimack College and a M.S. in Taxation from Bentley College.              </div>
             </div>
           </div>
         </div>
