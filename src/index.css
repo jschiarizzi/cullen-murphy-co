@@ -1033,8 +1033,9 @@ table {
   width: 100%;
 }
 .home-hero {
-  height: 80vh;
-  width: 100%;
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -1042,7 +1043,7 @@ table {
   -ms-flex-align: center;
       align-items: center;
   background: #ddd url("assets/boston-lights.png") no-repeat center center fixed;
-  background-size: cover;
+  
   z-index: -1;
 }
 .home-hero-filter {
