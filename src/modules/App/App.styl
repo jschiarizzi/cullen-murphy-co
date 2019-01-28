@@ -3,15 +3,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   .app-logo {
-    height: 60px;
+    max-height: 60px;
+    max-width: 100%;
   }
   .nav-bar {
     display: flex;
     height: 60px;
     justify-content: center;
     align-items: center;
+    width: 100%;
     .nav-item{
       color: #212121;
       display: inline-block;
@@ -45,9 +48,10 @@
   align-items: center;
   padding: 2rem 0;
   min-height: 5vh;
-  width: 100vw;
+  width: 100%;
   bottom: 0;
   .footer-info {
+    margin-top: 10px;
     padding: 0 0 0 1rem;
   }
   .footer-link {
@@ -97,7 +101,7 @@
     }
     .nav-bar {
       background-color: #234;
-      width: 100vw;
+      width: 100%;
       .nav-item{
         color: #fefefe;
       }

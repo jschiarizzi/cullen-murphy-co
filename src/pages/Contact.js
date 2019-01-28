@@ -5,7 +5,7 @@ import Map from '../components/Map';
 export default class Direction extends Component {
   render() {
     return (
-        <div className="container-fluid center">
+        <div className="container-fluid center minipad-right">
           <Helmet>
             <title>Contact | Cullen, Murphy & Co., PC.</title>
           </Helmet>
@@ -71,6 +71,26 @@ export default class Direction extends Component {
                 (781) 769-6262 Ext. 23 <br/>
                 (781) 769-5675 (FAX) <br/>
                 <a href="mailto:SMarino@CullenMurphyandco.com?">SMarino@CullenMurphyandco.com</a>
+              </div>
+            </div>
+            <div className="contact-item">
+              <div className="contact-name">
+                Marina Hatch
+              </div>
+              <div className="contact-detail">
+                (781) 769-6262 Ext. 26 <br/>
+                (781) 769-5675 (FAX) <br/>
+                <a href="mailto:mhatch@cullenmurphyandco.com?">MHatch@cullenmurphyandco.com</a>
+              </div>
+            </div>
+            <div className="contact-item">
+              <div className="contact-name">
+                Bradley Piper
+              </div>
+              <div className="contact-detail">
+                (781) 769-6262 Ext. 14<br/>
+                (781) 769-5675 (FAX) <br/>
+                <a href="mailto:bpiper@cullenmurphyandco.com?">BPiper@cullenmurphyandco.com</a>
               </div>
             </div>
           </div>

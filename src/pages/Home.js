@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
-import constImg from '../assets/pexels-photo-271667.jpeg'
+import constImg from '../assets/piggybank.png'
 import accountImg from '../assets/pexels-photo-1043506.jpeg'
 
 export default class Home extends Component {
@@ -12,8 +12,8 @@ export default class Home extends Component {
           </Helmet>
           <div className="home-section home-hero">
             <div className="home-hero-text">
-              When it comes to your finances,
-              <br/>we are in your dugout.
+              Small firm attention,
+              <br/>big firm results.
             </div>
           </div>
           <div className="home-section">
@@ -22,12 +22,13 @@ export default class Home extends Component {
                   <img src={constImg} alt=""/>
               </div>
               <div className= "home-description-text home-section-double">
-                  Cullen Murphy & Co., P.C., heritage of stability, focus and depth stems from the firm’s historically distinctive construction practice.  Advising companies with construction divisions, general contractors, subcontractors and related industries over the past four decades.
+                <strong>Cullen Murphy & Co., P.C.</strong>  provides diversified tax and accounting services to our clients located in Greater Boston, and throughout New England.  The firm’s history of stability, focus and depth stems from the firm’s distinctive professional expertise assisting closely-held companies with their tax and financial requirements.
               </div>
             </div>
+            <br/><br/>
             <div className="home-description">
               <div className= "home-description-text home-section-double">
-                  We provide a unique combination of institutional knowledge and real-world skills in assisting companies in the construction market space.  Within this practice, we advise on corporate and transactional issues, succession planning, acquisitions, divestitures assurance and tax compliance.
+                  Throughout this website you will find information about the firm, introduce you to our team of professionals and the services we provide. We encourage you to contact us with any questions you may have about our firm.
               </div>
               <div className="home-description-img home-section-double">
                   <img src={accountImg} alt=""/>
