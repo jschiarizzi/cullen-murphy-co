@@ -873,12 +873,13 @@ table {
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
-  padding: 2rem 0;
+  /*padding: 2rem 0;*/
   min-height: 5vh;
-  width: 100vw;
+  width: 100%;
   bottom: 0;
 }
 .app-footer .footer-info {
+  margin-top: 10px;
   padding: 0 0 0 1rem;
 }
 .app-footer .footer-link {
@@ -935,7 +936,7 @@ table {
   max-width: 800px;
 }
 .about-section {
-  display: -ms-flexbox;
+  display: table-cell;
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
@@ -947,6 +948,7 @@ table {
   padding: 2rem 0;
 }
 .about-intro {
+  display: table-cell;
   background-color: #eee;
   font-size: 1.5rem;
   font-style: italic;
@@ -1007,26 +1009,38 @@ table {
   line-height: 1.25rem;
 }
 .home-section {
-  min-height: 40vh;
+  min-height: 100%;
 }
 .home-description-alt {
   background-color: #fcfcfc;
 }
-.home-section-double {
-  max-height: 350px;
-  max-width: 350px;
-  padding: 2rem;
+@media screen and (min-width: 200px) {
+  .home-section-double {
+    max-height: 350px;
+    max-width: 350px;
+      padding: 2em;
+  }
+} 
+@media not screen and (max-width: 200px) {
+  .home-section-double {
+    max-height: 350px;
+    max-width: 350px;
+    padding: .1em;
+    padding-top: 3em;
+  }
+}
+.home{
+  width: 100%;
 }
 .home-hero {
   height: 80vh;
-  width: 100vw;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
-  background: #ddd url("assets/osman-rana-300482-unsplash.jpg") no-repeat center center fixed;
+  background: #ddd url("assets/boston-lights.png") no-repeat center center fixed;
   background-size: cover;
   z-index: -1;
 }
@@ -1054,6 +1068,7 @@ table {
   -ms-flex-align: center;
       align-items: center;
   min-height: 40vh;
+  max-width: 100%;
 }
 .home-description-img img {
   max-height: 350px;
@@ -1063,6 +1078,7 @@ table {
   font-size: 1.5rem;
   font-family: "Balthazar", sans-serif;
   line-height: 1.75rem;
+  padding: 5px;
 }
 @media (max-width: 900px) {
   .home > .home-description ~ .home-description {
@@ -1135,4 +1151,7 @@ body {
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
+}
+.minipad-right {
+  padding-right: 0.1em;
 }

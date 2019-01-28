@@ -1,5 +1,6 @@
 .home-section {
   min-height: 40vh;
+  width:100%;
 }
 .home-description-alt {
   background-color: #FCFCFC
@@ -7,16 +8,16 @@
 .home-section-double {
   max-height: 350px;
   max-width: 350px;
-  padding: 2rem;
+  /*padding: 2rem;*/
 }
 .home-hero {
   height: 80vh;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #DDDDDD url("assets/osman-rana-1000-unsplash.jpg") no-repeat center center fixed;
-  background-size: cover;
+  background: #DDDDDD url("assets/boston-light.png") no-repeat center center fixed;
+  background-size: 100%;
   z-index: -1;
 }
 .home-hero-text {
@@ -33,11 +34,12 @@
   justify-content: center;
   align-items: center;
   min-height: 40vh;
+  max-width: 100%;
 }
 .home-description-img {
   img {
     max-height: 350px;
-    max-width: 350px;
+    max-width: 100%;
   }
 }
 .home-description-text {
@@ -60,6 +62,8 @@
     font-size: 2rem;
   }
   .home-description {
-    width: 100vw+1rem;
+    width: 100%;
   }
 }
+
+.hero { width: 100%; }

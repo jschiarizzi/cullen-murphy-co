@@ -17,24 +17,20 @@ export default class NotFound extends Component {
             </div>
             <div className="about-bios-text">
               <div className="about-bios-title">
-                John Merchant, CPA, MSF, MST – Partner
+                John E. Merchant, C.P.A., M.S.T. and M.S.F. – Director and President
               </div>
               <div className="about-bios-desc">
-                John E. Merchant has more than 25 years of experience serving the financial and tax needs of Cullen Murphy & Co.’s business and individual clients.  Originally a staff professional, he was admitted as a shareholder of the company in 1981, and attained sole ownership in 1996.
-              <br/>
-                John’s extensive background is highlighted by his work with closely held companies, with a focus on the construction industry and non-profit organizations.  His areas of expertise include business and individual tax planning and consulting engagements focused on enhancing client profitability.  Well-versed on current tax laws and legislation, John participates in numerous industry associations.  A Certified Public Accountant, he received an undergraduate degree as well as a Master of Science in Finance and Master of Science in Taxation from Bentley College.
+                John E. Merchant joined the firm over 35 years ago serving as Director and President since 1996. John received his undergraduate accounting degree as well as a Master of Science in Taxation and Master of Science in Finance from Bentley College. He is a member of both the AICPA and Mass Society of Certified Public Accountants. His client base includes individuals, non-profits and privately held businesses including partnerships, and professional service organizations. His areas of expertise include business and individual tax planning, trusts and estates, management advisory services, succession and estate planning. John’s extensive background is highlighted by his tax, audit and consulting work with closely-held companies with a focus on the construction and real estate industries.
               </div>
             </div>
             <div className="about-bios-text">
               <div className="about-bios-title">
-                William Kearns, Jr., Partner
+                William Kearns, Jr.  C.P.A– Principal
               </div>
               <div className="about-bios-desc">
-                Bill Kearns brings unique experience to his clients having had experience in Public accounting serving privately owned business as well as private industry serving as a part-time CFO and Controller. In addition Bill owned and operated three Honey Dew Donut franchises from 1996 until 2004. Bill has worked for several accounting firms since starting in the business in 1986 including starting his own practice before joining Cullen Murphy in 2006. Bill was named a partner in the firm in 2010.
-                <br/>
-                Bill has over 25 years’ experience serving privately owned businesses in various industries such as Construction, Real Estate, Housing Authorities, Retail and Wholesale. Bill has particular expertise in the construction industry. His areas of expertise include financial reporting, business and individual tax planning and preparation and business strategic planning.
-                <br/>
-                Bill is well versed in current auditing, accounting and tax regulations and is active in several professional and industry associations. He also volunteers for several local charitable organizations.
+               Bill Kearns joined the firm in 2006 as a manager and was named a Principal in 2010. Bill received his undergraduate degree in 1988 from Bentley College. Bill has over 25 years’ experience serving privately owned businesses in various industries such as construction, real estate, retail and wholesale with an emphasis in the construction industry. His areas of expertise include financial reporting, business and individual tax planning and preparation and business strategic planning. 
+                <br/><br/>
+                  Bill is well versed in current auditing, accounting and tax regulations and is active in several professional and industry associations. He also volunteers for several local charitable organizations.
               </div>
             </div>
             <div className="about-bios-text">
@@ -42,8 +38,7 @@ export default class NotFound extends Component {
                 Robert Eardley, CPA, MST – Manager
               </div>
               <div className="about-bios-desc">
-                Rob has been with Cullen Murphy & Co., P.C., since 2001.  He began as a part-time high school employee assisting with firm administration, then becoming an accounting intern and then a full-time member of the staff after graduation from Merrimack College in 2007 with a Bachelor of Science in Business Administration with a concentration in Accountancy.  Rob attained a Master of Science in Taxation from Bentley College in 2011 and was promoted to manager in 2012.  Rob serves his clients in the area of audit and tax.
-              </div>
+                Rob has been with Cullen Murphy & Co., P.C., since 2001. His extensive experience in public accounting includes specializing in accounting, auditing, tax, and advisor for closely held corporations, partnerships, trusts and individuals as they apply to construction, real estate, wholesale/retail, and various industries. Rob’s areas of expertise include financial reporting plus tax planning and preparation. He is well versed in auditing, accounting, and tax regulations. Rob is active in several professional and industry associations. He holds a B.S. in Business Administration with a concentration in Accountancy from Merrimack College and a M.S. in Taxation from Bentley College.              </div>
             </div>
           </div>
         </div>
