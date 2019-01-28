@@ -26,7 +26,7 @@ export default class Direction extends Component {
                 Bill Kearns
               </div>
               <div className="contact-detail">
-                Partner <br/>
+                Principal <br/>
                 (781) 769-6262 Ext. 17 <br/>
                 (781) 769-5675 (FAX) <br/>
                 <a href="mailto:BKearns@CullenMurphyandco.com?">BKearns@CullenMurphyandco.com</a>
