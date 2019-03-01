@@ -1,5 +1,5 @@
 {
-  "name": "helium",
+  "name": "myapp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,9 +13,9 @@
   },
   "devDependencies": {
     "autoprefixer-stylus": "^0.10.0",
-    "react-scripts": "1.0.11",
+    "react-scripts": "^1.0.11",
     "stylus": "^0.54.5",
-    "webpack": "^2.6.0"
+    "webpack": "^3.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -24,5 +24,6 @@
     "styles": "stylus -u autoprefixer-stylus ./src/main.styl -o ./src/index.css",
     "styles:watch": "stylus -u autoprefixer-stylus -w ./src/main.styl -o ./src/index.css",
     "eject": "react-scripts eject"
-  }
+  },
+  "homepage":"http://www.cullenmurphyandco.com/fws/"
 }
