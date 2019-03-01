@@ -28,7 +28,7 @@ export default class Home extends Component {
             <br/><br/>
             <div className="home-description">
               <div className= "home-description-text home-section-double">
-                  Throughout this website you will find information about the firm, introduce you to our team of professionals and the services we provide. We encourage you to contact us with any questions you may have about our firm.
+                  Throughout this website you will find information about our firm, introduce you to our team of professionals and the services we provide. We encourage you to contact us with any questions you may have about our firm.
               </div>
               <div className="home-description-img home-section-double">
                   <img src={accountImg} alt=""/>
